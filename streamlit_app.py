@@ -2,8 +2,7 @@ import streamlit as st
 
 st.header('Projeto de 30 dias')
 
-if st.button('Diga olá'):
-  st.write('Teste do botão)
+if st.button('Say hello'):
+     st.write('Why hello there')
 else:
-           st.write('Adeus')
-
+     st.write('Goodbye')
